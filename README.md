@@ -15,3 +15,4 @@ Always use a primary navigation of 6 items. Do not use an odd number of nav item
 Todo:  
 * IE 8, 9 and 10 testing  
 * Lots of kids.nypl.org specific tweeking
+* learn to spell "tweak"
