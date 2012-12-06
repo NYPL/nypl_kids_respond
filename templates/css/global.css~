@@ -1,8 +1,8 @@
 /* This file will hold the main styles for your website. */
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:900,800);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:600,700);
 @import url(http://fonts.googleapis.com/css?family=Bowlby+One+SC);
+
 
 html,
 body,
@@ -40,7 +40,7 @@ a:link,
 a:visited {
   text-decoration: none;
   color: #006caf;
-/*  border-bottom: 1px dotted #006caf;*/
+  border-bottom: 1px dotted #006caf;
 }
 .vertical-tab-button a,
 .vertical-tab-button a:link
@@ -116,11 +116,11 @@ footer.section-footer {
 }
 
 .site-name-slogan .site-name a{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Bowlby One SC', cursive;
   font-size: 150px;
   color: #FFF;
   text-transform: uppercase;
-  letter-spacing: 14px;
+  letter-spacing: 4px;
   text-decoration: none;
 }
 
@@ -128,7 +128,6 @@ footer.section-footer {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
 /* Primary Nav */
 .navigation {
   margin-bottom: 20px;
@@ -160,8 +159,10 @@ footer.section-footer {
   display: block;
   text-align: center;
   background: #ffffff; /* Old browsers */
+  
   border-bottom: 0;
   font-family: UbuntuRegular, Geneva, "Helvetica Nueue", Helvetica, Verdana, Arial, sans-serif;
+  
   font-size: 1.5em; /* 15px */
   padding: 1em 0;
   color: #000;
@@ -320,8 +321,8 @@ article .comment-inner,
   -moz-border-radius: 0 0 10px 10px;
   -o-border-radius: 0 0 10px 10px;
   border-radius: 0 0 10px 10px;
-  font-size: 12px;
-  font-family: Geneva, "Helvetica Nueue", Helvetica, Veranda, Arial, sans-serif;
+  
+  
 }
 
 .comment-form > div {
@@ -386,6 +387,7 @@ section.block-menu ul.menu li a {
   padding: 0;
   border-bottom: 1px dotted #006caf;
   padding: 0.25em 1em;
+  
   background: #ffffff; /* Old browsers */
 }
 
@@ -616,6 +618,9 @@ table {
   border-radius: 0 5px 5px 0;
 }
 
+
+
+
 /* Hidden Elements in Mobile */
 
 /* Custom styles */
@@ -668,12 +673,7 @@ div.ui-datepicker{
   background: #36322D;
 }
 
-#footer-bottom li a{
- color: #FFF;
-}
-
 #footer-bottom {
-  color: #FFF;
   min-height: 130px;
   margin: 0;
   padding: 15px 0;
@@ -713,6 +713,10 @@ body.front #footer-bottom ul { /* for spacing on home pg version */
 	text-decoration: none;
 }
 
+body.front #footer-bottom ul li a {
+	color: #36322D;
+}
+
 #footer-bottom ul li a:hover,
 #footer-bottom ul li a:active {
 	text-decoration: underline;
@@ -724,8 +728,13 @@ body.front #footer-bottom ul { /* for spacing on home pg version */
   font-size: 90%;
   left: 5px;
   padding: 0;
-  position: absolute;
-  width: 100%; 
+ position: absolute;
+/* width: 100%; */
+}
+
+body.front #footer-bottom ul#legal-links {
+bottom: -25px; /* for damn extra links in shallow footer */
+color: #36322D;
 }
 
 #footer-bottom #legal-links a:link,
@@ -745,61 +754,38 @@ body.front #footer-bottom ul { /* for spacing on home pg version */
 
 /* END FOOTER */
 
-/* Custom Styles */
-.views-field-field-preview-image{
 
-}
 
-.block-ebooks-block-1 .views-row,
-.block-ebooks-block-2 .views-row, 
-.block-ebooks-block-3 .views-row{
-  padding-bottom: 10px;
-  font-size: 15px;
-}
 
-.views-field-title{
-  font-size: 15px;
-  font-weight: bold;
-}
 
-.view-display-id-page_4 .views-row{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-}
 
-.view-display-id-page_4 .views-field-title .field-content a{
-  font-size: 18px;
-  padding-left: 30px;
-  padding-bottom: 15px;
-}
 
-.views-field-field-preview-image{
 
-}
 
-.views-row-odd{
-/*  background-color: red;*/
-}
 
-/* Media Queries */
-@media screen and (max-width: 480px){
-  .site-name-slogan .site-name a{
-    font-size: 110px;
-    letter-spacing: 5px;
-  }
 
-  #zone-branding img{
-    padding-left: 0px;
-  }
 
-  .logo-img img{
-     width: 150px;
-     padding-bottom: 0px;
-  }
-  
-  #zone-menu{
-      font-size: 9px;
-  }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
