@@ -11,8 +11,6 @@ Some issues to note:
 
 Always use a primary navigation of 6 items. Do not use an odd number of nav items with this theme, it will look terrible and break the nav's responsiveness.
 
-
 Todo:  
 * IE 8, 9 and 10 testing  
-* Lots of kids.nypl.org specific tweeking
-* learn to spell "tweak"
+* Lots of kids.nypl.org specific tweaking
