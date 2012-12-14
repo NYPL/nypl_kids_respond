@@ -28,6 +28,10 @@
    */
   $(document).ready(function(){
     var pageTitleText = $('#page-title').text();
-    $('#page-title').html(pageTitleText.replace(/_/g, ' '));
+    if(pageTitleText == 'Websites_Frontpage'){
+      $('#page-title').html('Websites for Kids');
+    }else{
+      $('#page-title').html(pageTitleText.replace(/_/g, ' '));
+    }
   });
 })(jQuery);
