@@ -11,10 +11,23 @@
   Drupal.behaviors.respondActiveMenu = {
     attach: function (context) {
       var activeMenu = $('nav ul.main-menu li.active, nav ul.main-menu li.active-trail').size();
-      console.log(activeMenu);
-      if (activeMenu == '0') {
-        $('nav ul.main-menu li:first-child').addClass('active').children('a:first-child').addClass('active');
-      }
+      //console.log(activeMenu);
+      //if (activeMenu == '0') {
+        //$('nav ul.main-menu li:first-child').addClass('active').children('a:first-child').addClass('active');
+      //}
     }
   };
+
+})(jQuery);
+
+
+(function($){
+  /**
+   * @todo
+   * Views will make the last URL param the title of the node, but it will not format it. 
+   */
+  $(document).ready(function(){
+    var pageTitleText = $('#page-title').text();
+    $('#page-title').html(pageTitleText.replace(/_/g, ' '));
+  });
 })(jQuery);
