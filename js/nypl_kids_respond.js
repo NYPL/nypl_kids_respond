@@ -30,6 +30,8 @@
     var pageTitleText = $('#page-title').text();
     if(pageTitleText == 'Websites_Frontpage'){
       $('#page-title').html('Websites for Kids');
+    }else if(pageTitleText == 'front-page'){
+      $('#page-title').hide();;
     }else{
       $('#page-title').html(pageTitleText.replace(/_/g, ' '));
     }
