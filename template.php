@@ -30,6 +30,12 @@ function nypl_kids_respond_form_alter(&$form, &$form_state, $form_id) {
   }
 }
 
+function nypl_kids_respon_preprocess_page(&$vars){
+  if ($vars['title'] == 'front-page') {
+    $vars['title'] = '';
+  }
+}
+
 
 
 
