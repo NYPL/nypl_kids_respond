@@ -729,6 +729,14 @@ body.front #footer-bottom ul { /* for spacing on home pg version */
 /* END FOOTER */
 
 /* Custom Styles */
+
+/* home page */
+a[class|=promo] {
+background: pink;
+}
+
+
+/* views */
 .views-field-field-preview-image{
 
 }
@@ -769,6 +777,7 @@ width: 100%;
 .views-row-odd{
 /*  background-color: red;*/
 }
+
 
 /* Media Queries */
 @media screen and (max-width: 480px){
