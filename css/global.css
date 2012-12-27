@@ -96,7 +96,7 @@ footer.section-footer {
 }
 
 #zone-content{
-background: #FFF;
+background: #fff url("../img/skyline.jpg");
 border-radius: 5px;
 padding-bottom: 30px;
 }
@@ -295,7 +295,7 @@ article header h2.node-title a,
 article .node-inner,
 article .comment-inner,
 .block-system-main {
-  background: #FFF;
+  /* background: #FFF; */
   margin: 0;
   margin-bottom: 20px;
   padding: 10px;
