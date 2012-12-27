@@ -15,7 +15,6 @@ body {
   font-family: Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   color: #696969;
   background: #007ba5;
-  padding: 0 5%;
 }
 .element-invisible {
   position: absolute !important;
@@ -97,8 +96,9 @@ footer.section-footer {
 }
 
 #zone-content{
- background: #FFF;
- padding-bottom: 30px;
+background: #FFF;
+border-radius: 5px;
+padding-bottom: 30px;
 }
 
 #region-menu{
@@ -230,16 +230,6 @@ h2.block-title {
   color: #FFF;
 }
 
-h2.block-title,
-h1#page-title,
-.comment header h3 {
-  -webkit-border-radius: 10px 10px 0 0;
-  -moz-border-radius: 10px 10px 0 0;
-  -o-border-radius: 10px 10px 0 0;
-  border-radius: 10px 10px 0 0;
-  background: #93c5e4; /* Old browsers */
-}
-
 /* Trying to get a transform on the node link headers */
 
 article header h2.node-title {
@@ -290,7 +280,7 @@ h1#page-title,
 .comment header h3 {
   font-size: 2.0em; /* 20px */
   padding: 0.5em 1em;
-  color: #FFF;
+  color: #007BA5;
   margin-bottom: 0;
 }
 
@@ -768,7 +758,12 @@ body.front #footer-bottom ul { /* for spacing on home pg version */
 }
 
 .views-field-field-preview-image{
+float: left;
+}
 
+.views-row {
+float: left;
+width: 100%;
 }
 
 .views-row-odd{
