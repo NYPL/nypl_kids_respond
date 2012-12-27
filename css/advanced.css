@@ -2,10 +2,12 @@
 
 .navigation ul li a {
   border: 1px #F0EBED solid;
+/*
   -moz-box-shadow: 5px 5px 5px #ccc;
   -webkit-box-shadow: 5px 5px 5px #ccc;
   -o-box-shadow: 5px 5px 5px #ccc;
   box-shadow: 5px 5px 5px #ccc;
+*/
 
 }
 
