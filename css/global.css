@@ -93,7 +93,7 @@ footer.section-footer {
 
 
 #zone-menu {
- background: #FFF;
+
 }
 
 #zone-content{
@@ -153,12 +153,11 @@ footer.section-footer {
 .navigation ul li a {
   display: block;
   text-align: center;
-  background: #ffffff; /* Old browsers */
   border-bottom: 0;
   font-family: UbuntuRegular, Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   font-size: 1.5em; /* 15px */
   padding: 1em 0;
-  color: #000;
+  color: #fff;
   text-transform: none;
   font-weight: bold;
   text-decoration: none;
