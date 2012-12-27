@@ -14,9 +14,8 @@ body {
   font-size: 62.5%; /* 10px */
   font-family: Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   color: #696969;
-  background: #007ba5; 
-  background: -webkit-gradient(linear, left top, left bottom, from(#00598E), to(#00ADEE));
-  background: -moz-linear-gradient(top,  #00598E,  #00ADEE); 
+  background: #007ba5;
+  padding: 0 5%;
 }
 .element-invisible {
   position: absolute !important;
@@ -89,12 +88,7 @@ footer.section-footer {
 }
 
 #zone-branding{
-  background: #f78d1d;
-  background: -webkit-gradient(linear, left top, left bottom, from(#faa51a), to(#f47a20));
-  background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
-  box-shadow: 2px 4px 20px #005377;
-  -moz-box-shadow: 2px 4px 20px #005377;
-  -webkit-box-shadow: 2px 4px 20px #005377;
+  background: #F99D32;
 }
 
 
@@ -665,7 +659,7 @@ div.ui-datepicker{
 
 #zone-footer{
   color: #FFF;
-  background: #36322D;
+  /* background: #36322D; */
 }
 
 #footer-bottom li a{
