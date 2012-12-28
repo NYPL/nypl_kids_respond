@@ -96,7 +96,11 @@ footer.section-footer {
 }
 
 #zone-content{
-background: #fff url("../img/skyline.jpg");
+background: #7DDEFF url("../img/skyline.jpg")/*  no-repeat center center fixed */;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 border-radius: 5px;
 padding-bottom: 30px;
 }
@@ -792,11 +796,16 @@ width: 100%;
 
   .logo-img img{
      width: 150px;
+     height: auto;
      padding-bottom: 0px;
   }
   
   #zone-menu{
       font-size: 9px;
+  }
+  
+  #zone-content {
+  	background: #7DDEFF;
   }
 
 }
