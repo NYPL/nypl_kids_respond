@@ -61,7 +61,11 @@ p, ul, ol, li, table {
 h1.site-name {
   font-family: UbuntuBold, Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   font-size: 4.8em; /* 48px */
-  margin-top: 10px;
+/* -webkit-margin-after: -10px; */
+position: absolute;
+right: 0;
+bottom: -6px;
+
 }
 h6.site-slogan {
   font-size: 1.6em; /* 16px */
@@ -110,21 +114,20 @@ padding-bottom: 30px;
 }
 
 .site-name-slogan{
-  padding-top: 29px;
 }
 
 .site-name-slogan .site-name a{
   font-family: 'Open Sans', sans-serif;
-  font-size: 150px;
-  color: #FFF;
+  font-size: 170px;
+  color: #007BA5;
   text-transform: uppercase;
   letter-spacing: 14px;
   text-decoration: none;
 }
 
 .branding-data {
-  margin-top: 10px;
-  margin-bottom: 10px;
+margin-top: 25px;
+margin-bottom: 10px;
 }
 
 /* Primary Nav */
