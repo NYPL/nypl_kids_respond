@@ -763,8 +763,11 @@ overflow: hidden;
 
 
 /* views */
-.views-field-field-preview-image{
-
+.views-field-field-preview-image img{
+outline: 2px solid #0073ba;
+}
+.views-field-field-preview-image img:hover{
+outline: 2px solid #209ee8;
 }
 
 .block-ebooks-block-1 .views-row,
@@ -806,15 +809,22 @@ width: 100%;
 
 
 /* Media Queries */
-@media screen and (min-device-width: 1024px) and (min-width: 1024px){
+@media screen and (min-width: 1024px){
 	.navigation ul.main-menu li {
 	font-size: 1.5em;
 	}
   }	
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 740px){
   .site-name-slogan .site-name a{
     font-size: 110px;
+    letter-spacing: 5px;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .site-name-slogan .site-name a{
+    font-size: 40px;
     letter-spacing: 5px;
   }
 
@@ -833,7 +843,7 @@ width: 100%;
   }
   
   #zone-content {
-  	background: #7DDEFF;
+  	background: #7DDEFF; /* kills the bg img */
   }
 
 }
