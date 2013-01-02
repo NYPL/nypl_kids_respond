@@ -750,6 +750,17 @@ width: 33%;
 padding-top: 0;
 }
 
+.lib-card {
+position: absolute;
+top: -17px;
+background: url("../img/library-card.png");
+width: 160px;
+height: 157px;
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+}
+
 
 /* views */
 .views-field-field-preview-image{
