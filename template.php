@@ -33,9 +33,9 @@ function nypl_kids_respond_form_alter(&$form, &$form_state, $form_id) {
 /**
  * Implementation of hook_preprocess_page
  */
-function nypl_kids_respond_preprocess_page(&$vars){
-  if($vars['is_front']){
-    $vars['title'] = '';
+function nypl_kids_respond_preprocess_page(&$variables){
+  if($variables['is_front']){
+    $variables['title'] = '';
   }
 }
 
