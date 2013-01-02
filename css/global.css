@@ -50,6 +50,7 @@ a:hover {
   
   color: #0073ba;
   border-bottom: 0;
+  text-decoration: underline;
 }
 .logo-img a,
 .contextual-links-wrapper a {
@@ -770,9 +771,7 @@ outline: 2px solid #0073ba;
 outline: 2px solid #209ee8;
 }
 
-.block-ebooks-block-1 .views-row,
-.block-ebooks-block-2 .views-row, 
-.block-ebooks-block-3 .views-row{
+.views-row{
   padding-bottom: 10px;
   font-size: 15px;
 }
@@ -782,16 +781,20 @@ outline: 2px solid #209ee8;
   font-weight: bold;
 }
 
-.view-display-id-page_4 .views-row{
+.views-row{
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
 }
 
-.view-display-id-page_4 .views-field-title .field-content a{
+.views-field-title .field-content a{
   font-size: 18px;
   padding-left: 30px;
   padding-bottom: 15px;
+}
+
+.views-field-body .field-content p {
+  padding-left: 130px;
 }
 
 .views-field-field-preview-image{
@@ -820,6 +823,16 @@ width: 100%;
     font-size: 110px;
     letter-spacing: 5px;
   }
+  
+  h1.site-name, h2.site-name {
+  bottom: -16px;
+  }
+
+  .logo-img img{
+     width: 150px;
+     height: auto;
+     padding: 10px 0 0 0;
+  }  
 }
 
 @media screen and (max-width: 480px){
@@ -827,16 +840,15 @@ width: 100%;
     font-size: 40px;
     letter-spacing: 5px;
   }
+  
+  h1.site-name, h2.site-name {
+  bottom: -10px;
+  }  
 
   #zone-branding img{
     padding-left: 0px;
   }
 
-  .logo-img img{
-     width: 150px;
-     height: auto;
-     padding-bottom: 0px;
-  }
   
   #zone-menu{
       font-size: 9px;
