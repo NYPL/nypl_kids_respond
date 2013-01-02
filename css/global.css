@@ -672,12 +672,13 @@ div.ui-datepicker{
 }
 
 #footer-bottom ul {
-  float: left;
-  line-height: 2em;
-  list-style: none outside none;
-  margin: 0;
-  padding: 0 2em;
-  position: relative;
+float: left;
+line-height: 2em;
+list-style: none outside none;
+margin: 0;
+padding: 0 0em;
+position: relative;
+width: 20%;
 }
 
 body.front #footer-bottom ul { /* for spacing on home pg version */
@@ -709,6 +710,7 @@ body.front #footer-bottom ul { /* for spacing on home pg version */
 }
 
 #footer-bottom ul#legal-links {
+/*
   bottom: 3px;
   color: #FFFFFF;
   font-size: 90%;
@@ -716,6 +718,7 @@ body.front #footer-bottom ul { /* for spacing on home pg version */
   padding: 0;
   position: absolute;
   width: 100%; 
+*/
 }
 
 #footer-bottom #legal-links a:link,
