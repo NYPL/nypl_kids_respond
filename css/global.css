@@ -162,7 +162,7 @@ margin-bottom: 10px;
   border-bottom: 0;
   font-family: UbuntuRegular, Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   font-size: 1.5em; /* 15px */
-  padding: 1em 0;
+  padding: .3em 0;
   color: #fff;
   text-transform: none;
   font-weight: bold;
@@ -734,11 +734,13 @@ body.front #footer-bottom ul { /* for spacing on home pg version */
 
 /* END FOOTER */
 
+
 /* Custom Styles */
 
-/* home page */
+/* HOME PG */
 a[class|=promo] {
-background: pink;
+display: inline-block;
+width: 33%;
 }
 
 
