@@ -41,8 +41,8 @@ function nypl_kids_respond_views_pre_render(&$view) {
 */
 
 function nypl_kids_respond_preprocess_html(&$vars) {
-  if($vars['head_title'] == 'Websites_Frontpage'){
-    $vars['head_title'] = 'Websites for Kids';
+  if($vars['head_title'] == 'Websites Frontpage'){
+     $vars['head_title'] = 'Websites for Kids';
   }
   $vars['head_title'] = str_replace("_", " ", $vars['head_title']);
 }
