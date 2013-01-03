@@ -32,6 +32,8 @@ function nypl_kids_respond_form_alter(&$form, &$form_state, $form_id) {
 
 
 function nypl_kids_respond_views_pre_render(&$view) {
+    var_dump($node->title);
+
     $fixed_title = str_replace("_", " ", (string)$view->build_info['title']);
     $view->build_info['title'] = $fixed_title;
 }
