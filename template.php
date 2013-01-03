@@ -35,7 +35,7 @@ function nypl_kids_respond_views_pre_render(&$view) {
 
     $fixed_title = str_replace("_", " ", $view->build_info['title']);
 
-    debug($fixed_title);
+    var_dump($fixed_title);
 
     $view->build_info['title'] = $fixed_title;
 }
