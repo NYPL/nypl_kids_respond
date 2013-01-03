@@ -30,16 +30,10 @@ function nypl_kids_respond_form_alter(&$form, &$form_state, $form_id) {
   }
 }
 
-/**
- * Implementation of hook_preprocess_page
- */
-function nypl_kids_respond_preprocess_page(&$variables){
-    $variables['title'] = str_replace("_", " ", $variables['title']);
-}
-
 
 function nypl_kids_respond_views_pre_render(&$view) {
-    $view->build_info['title'] = str_replace("_", " ", $view->build_info['title']);
+    $fixed_title = str_replace("_", " ", $view->build_info['title']);
+    $view->build_info['title'] = $fixed_title;
 }
 
 
