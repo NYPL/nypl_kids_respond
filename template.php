@@ -39,7 +39,7 @@ function nypl_kids_respond_preprocess_page(&$variables){
 
 
 function nypl_kids_respond_views_pre_render(&$view) {
-    $view->build_info['title'] = "TEST TITLE";
+    $view->build_info['title'] = str_replace("_", " ", $view->build_info['title']);
 }
 
 
