@@ -38,6 +38,9 @@ function nypl_kids_respond_preprocess_page(&$variables){
 }
 
 
+function nypl_kids_respond_views_pre_render(&$view) {
+    $view->build_info['title'] = "TEST TITLE";
+}
 
 
 
