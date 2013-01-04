@@ -30,21 +30,9 @@ function nypl_kids_respond_form_alter(&$form, &$form_state, $form_id) {
   }
 }
 
-/*
-function nypl_kids_respond_views_pre_render(&$view) {
-  if ($view->name == 'ebooks') {
-    $fixed_title = str_replace("_", " ", (string)$view->build_info['title']);
-    var_dump($fixed_title);
-    $view->build_info['title'] = $fixed_title;
-  }
-}
-*/
-
 function nypl_kids_respond_preprocess_html(&$vars) {
-//  if($vars['head_title'] == 'Websites Frontpage'){
-     //$vars['head_title'] = 'Websites for Kids';
-//  }
   $vars['head_title'] = str_replace("_", " ", $vars['head_title']);
+  $vars['head_title'] = str_replace("| Kids!", "| NYPL Kids", $vars['head_title']);
 }
 
 
