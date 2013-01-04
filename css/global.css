@@ -793,16 +793,17 @@ outline: 2px solid #209ee8;
 
 .views-field-title .field-content a{
   font-size: 18px;
-  padding-left: 30px;
+/*   padding-left: 30px; */
   padding-bottom: 15px;
 }
 
 .views-field-body .field-content p {
-  padding-left: 130px;
+  padding-left: 115px;
 }
 
 .views-field-field-preview-image{
 float: left;
+margin-right: 15px;
 }
 
 .views-row {
