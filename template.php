@@ -41,7 +41,7 @@ function nypl_kids_respond_views_pre_render(&$view) {
 */
 
 function nypl_kids_respond_preprocess_html(&$vars) {
-  $vars['head_name'] = "NYPL Kids";
+  //$vars['head_name'] = "NYPL Kids";
   $vars['head_title'] = str_replace("_", " ", $vars['head_title']);
 }
 
