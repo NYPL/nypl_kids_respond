@@ -32,7 +32,7 @@ function nypl_kids_respond_form_alter(&$form, &$form_state, $form_id) {
 
 function nypl_kids_respond_preprocess_html(&$vars) {
   $vars['head_title'] = str_replace("_", " ", $vars['head_title']);
-  $vars['head_title'] = str_replace("Kids!", "NYPL Kids", $vars['head_title']);
+  $vars['head_title'] = str_replace("| Kids!", "| NYPL Kids", $vars['head_title']);
 }
 
 
