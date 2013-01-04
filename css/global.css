@@ -93,7 +93,8 @@ footer.section-footer {
 }
 
 #zone-branding{
-  background: #F99D32;
+  background: #F99D32 url("../img/header-bg.png") repeat-x center top;
+  background-size: contain;
 }
 
 
@@ -102,7 +103,7 @@ footer.section-footer {
 }
 
 #zone-content {
-background: #85D5F6 url("../img/skyline.png") repeat-x center top; /* could recut and repeat-x for non-CSS3 */
+background: #85D5F6 url("../img/skyline.png") repeat-x center top;
 background-size: contain;
 border-radius: 5px;
 border: 5px solid white;
@@ -273,7 +274,7 @@ div#first-time,
 dl.node-type-list,
 .page-node-add .block-system-main > .block-inner,
 .page-node-edit .block-system-main > .block-inner {
-  background: #FFF;
+/*   background: #FFF; */
   margin: 0;
   margin-bottom: 20px;
   padding: 10px;
@@ -806,7 +807,8 @@ float: left;
 
 .views-row {
 float: left;
-width: 100%;
+width: 42%;
+margin-right: 2%;
 }
 
 .views-row-odd{
