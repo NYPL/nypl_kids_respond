@@ -884,5 +884,28 @@ margin-right: 2%;
 	{
 	display: none; 
 	}  
+	
+  	/* Home page */
+  	.lib-card {
+	position: absolute;
+	top: 15px;
+	background: #F99D32;
+	width: auto;
+	height: auto;
+	text-indent: 0;
+	white-space: nowrap;
+	overflow: hidden;
+	padding: 2px 5px;
+	border-radius: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	}
+	a.lib-card {
+	color: #fff;
+	}
+	
+	[class|="promo"] {
+	padding-top: 20px;
+	}
 
 }
