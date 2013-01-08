@@ -819,11 +819,24 @@ margin-right: 2%;
 
 
 /* Media Queries */
+
 @media screen and (min-width: 1024px){
 	.navigation ul.main-menu li {
 	font-size: 1.5em; /* top nav font size */
 	}
+	
+	.views-row {
+	width: 30%;
+	height: 200px;
+	}
   }	
+
+@media screen and (max-width: 1024px){
+	.views-row {
+	width: 42%;
+	height: 200px;
+	}	
+}
 
 @media screen and (max-width: 800px){
 
@@ -831,6 +844,7 @@ margin-right: 2%;
 	padding-left: 0;
 	float: left;
 	padding-top: 10px; /* subpages desc */
+	font-size: 86%;  /* subpages desc */
 	}
 }
 
@@ -853,12 +867,14 @@ margin-right: 2%;
 
 	.views-row {
 	width: 100%;
+	height: auto;
 	}
 	
 	.views-field-body .field-content p {
 	padding-left: 115px;
 	float: none;
 	padding-top: 0; /* subpages desc */
+	font-size: inherit;
 	}
 		
   #footer-bottom ul {
