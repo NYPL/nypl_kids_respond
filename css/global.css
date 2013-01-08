@@ -758,6 +758,7 @@ padding-top: 0;
 .lib-card {
 position: absolute;
 top: -17px;
+left: 0;
 background: url("../img/library-card.png");
 width: 160px;
 height: 157px;
