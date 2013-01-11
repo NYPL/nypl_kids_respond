@@ -766,14 +766,18 @@ overflow: hidden;
   font-size: 90%;
 }
 
-.views-row {
-float: left;
-width: 42%;
-margin-right: 2%;
-}
 
 .views-row-odd{
 /*  background-color: red;*/
+}
+
+/* items in a list (views, blog posts, events) */
+.views-row,
+.event-item,
+.item-list li {
+float: left;
+width: 42%;
+margin-right: 2%;
 }
 
 /* imgs */
