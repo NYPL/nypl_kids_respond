@@ -97,22 +97,24 @@ footer.section-footer {
 /*  background: #EEE;*/
 }
 
-#zone-branding{
-  background: #F99D32 url("../img/header-bg.png") repeat-x center top;
-  background-size: contain;
+body.front #zone-branding{
+background: #F99D32 url("../img/header-bg.png") no-repeat center bottom;
 }
-
+#zone-branding{
+background: #F99D32;
+}
 
 #zone-menu {
 
 }
 
 #zone-content {
-background: #85D5F6 url("../img/skyline.png") repeat-x center top;
-background-size: contain;
+background: #85D5F6;
 border-radius: 5px;
-/* border: 5px solid white; */
 padding-bottom: 30px;
+}
+body.front #zone-content {
+background: #85D5F6 url("../img/skyline.png") no-repeat center top;
 }
 
 #region-menu{
