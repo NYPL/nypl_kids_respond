@@ -803,6 +803,15 @@ float: left;
 margin-right: 15px;
 }
 
+/* blog posts */
+.blog-title{
+font-size: 2em;
+}
+
+.blog-body {
+margin-top: 2em;
+}
+
 
 /* Media Queries */
 
