@@ -733,12 +733,6 @@ overflow: hidden;
 
 
 /* views */
-.views-field-field-preview-image img{
-outline: 2px solid #0073ba;
-}
-.views-field-field-preview-image img:hover{
-outline: 2px solid #209ee8;
-}
 
 .views-row{
   padding-bottom: 10px;
@@ -779,6 +773,21 @@ margin-right: 2%;
 
 .views-row-odd{
 /*  background-color: red;*/
+}
+
+/* imgs */
+.views-field-field-preview-image img,
+.bibliocommons-image img,
+.blog-teaser img,
+.blog-body img,
+.event-image img {
+outline: 2px solid #0073ba;
+}
+.views-field-field-preview-image img:hover,
+.bibliocommons-image img:hover,
+.blog-teaser img:hover,
+.event-image img:hover {
+outline: 2px solid #209ee8;
 }
 
 
