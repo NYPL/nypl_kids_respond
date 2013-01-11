@@ -912,13 +912,7 @@ float: left;
   #zone-menu{
       font-size: 9px; /* top nav font size */
   }
-  
-  #zone-content {
-  	background: #7DDEFF; /* kills the bg img */
-  }
-  #zone-branding{
-  background: #F99D32; /* kills the bg img in HDR */
-  }
+
   
   #footer-bottom ul {
   float: none;
