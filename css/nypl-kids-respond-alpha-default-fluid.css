@@ -8,26 +8,32 @@
 .navigation ul.main-menu li:nth-child(3) a,
 .navigation ul.main-menu li:nth-child(4) a,
 .navigation ul.main-menu li:nth-child(6) a {
+/*
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -o-border-radius: 0;
   border-radius: 0;
+*/
 }
 
 
 
 .navigation ul.main-menu li:nth-child(1) a {
+/*
   -webkit-border-radius: 10px 0 0 10px;
   -moz-border-radius: 10px 0 0 10px;
   -o-border-radius: 10px 0 0 10px;
   border-radius: 10px 0 0 10px;
+*/
 }
 
 .navigation ul.main-menu li:last-child a {
+/*
   -webkit-border-radius: 0 10px 10px 0;
   -moz-border-radius: 0 10px 10px 0;
   -o-border-radius: 0 10px 10px 0;
   border-radius: 0 10px 10px 0;
+*/
 }
 
 .navigation ul.main-menu li a.active,
