@@ -112,7 +112,7 @@ padding-bottom: 30px;
 
 #region-menu{
 /*   padding-top: 15px; */
-margin: 0; /* overrides l/r margins, to put edges flush */
+/* margin: 0;  overrides l/r margins, to put edges flush */
 }
 
 .site-name-slogan{
@@ -721,7 +721,7 @@ padding-top: 0;
 
 .lib-card {
 position: absolute;
-top: -17px;
+top: -12px;
 left: 0;
 background: url("../img/library-card.png");
 width: 160px;
