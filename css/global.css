@@ -780,6 +780,11 @@ width: 42%;
 margin-right: 2%;
 }
 
+.event-item,
+.item-list li {
+margin-bottom: 3%;
+}
+
 /* imgs */
 .views-field-field-preview-image img,
 .bibliocommons-image img,
@@ -814,7 +819,7 @@ margin-top: 2em;
 
 /* events */
 .event-image img {
-width: 250px;
+width: 285px;
 height: auto;
 }
 
