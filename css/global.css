@@ -106,12 +106,13 @@ footer.section-footer {
 background: #85D5F6 url("../img/skyline.png") repeat-x center top;
 background-size: contain;
 border-radius: 5px;
-border: 5px solid white;
+/* border: 5px solid white; */
 padding-bottom: 30px;
 }
 
 #region-menu{
 /*   padding-top: 15px; */
+margin: 0; /* overrides l/r margins, to put edges flush */
 }
 
 .site-name-slogan{
