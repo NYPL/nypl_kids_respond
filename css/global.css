@@ -890,7 +890,7 @@ margin-right: 2%;
   }
   
   h1.site-name, h2.site-name {
-  bottom: -19px; /* site name placement */
+  bottom: -6px; /* site name placement */
   }  
 
   #zone-branding img{
@@ -927,6 +927,7 @@ margin-right: 2%;
   	.lib-card {
 	position: absolute;
 	top: 15px;
+	left: 96px;
 	background: #F99D32;
 	width: auto;
 	height: auto;
