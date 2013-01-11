@@ -57,8 +57,13 @@ a:hover {
   border: 0;
 }
 p, ul, ol, li, table {
-  
+
 }
+
+p {
+font-size: 110%;
+}
+
 h1.site-name, h2.site-name /* site name is h2 on subpages */
 {
   font-family: UbuntuBold, Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
