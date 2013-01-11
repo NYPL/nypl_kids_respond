@@ -256,7 +256,7 @@ dl.node-type-list,
 h1#page-title,
 .comment header h3 {
   font-size: 2.0em; /* 20px */
-  padding: 0.5em 1em;
+  padding: 0.5em;
   color: #007BA5;
   margin-bottom: 0;
 }
@@ -763,11 +763,7 @@ overflow: hidden;
 
 .views-field-body .field-content p {
   padding-left: 115px;
-}
-
-.views-field-field-preview-image{
-float: left;
-margin-right: 15px;
+  font-size: 90%;
 }
 
 .views-row {
@@ -793,6 +789,14 @@ outline: 2px solid #0073ba;
 .blog-teaser img:hover,
 .event-image img:hover {
 outline: 2px solid #209ee8;
+}
+
+.views-field-field-preview-image, 
+.blog-teaser img, 
+.blog-body img, 
+.event-image{
+float: left;
+margin-right: 15px;
 }
 
 
