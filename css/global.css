@@ -193,44 +193,7 @@ margin-bottom: 10px;
   color: #FFF;
 }
 
-.navigation ul.secondary-menu li:first-child a {
-  -webkit-border-radius: 10px 0 0 10px;
-  -moz-border-radius: 10px 0 0 10px;
-  -o-border-radius: 10px 0 0 10px;
-  border-radius: 10px 0 0 10px;
-}
-.navigation ul.secondary-menu li:last-child a {
-  -webkit-border-radius: 0 10px 10px 0;
-  -moz-border-radius: 0 10px 10px 0;
-  -o-border-radius: 0 10px 10px 0;
-  border-radius: 0 10px 10px 0;
-}
 
-/* Nav styles for mobile only giving rounded corners to the outer edges */
-.navigation ul.main-menu li:nth-child(1) a {
-  -webkit-border-radius: 10px 0 0 0;
-  -moz-border-radius: 10px 0 0 0;
-  -o-border-radius: 10px 0 0 0;
-  border-radius: 10px 0 0 0;
-}
-.navigation ul.main-menu li:nth-child(3) a {
-  -webkit-border-radius: 0 10px 0 0;
-  -moz-border-radius: 0 10px 0 0;
-  -o-border-radius: 0 10px 0 0;
-  border-radius: 0 10px 0 0;
-}
-.navigation ul.main-menu li:nth-child(4) a {
-  -webkit-border-radius: 0 0 0 10px;
-  -moz-border-radius: 0 0 0 10px;
-  -o-border-radius: 0 0 0 10px;
-  border-radius: 0 0 0 10px;
-}
-.navigation ul.main-menu li:last-child a {
-  -webkit-border-radius: 0 0 10px 0;
-  -moz-border-radius: 0 0 10px 0;
-  -o-border-radius: 0 0 10px 0;
-  border-radius: 0 0 10px 0;
-}
 /* Blocks */
 h2.block-title {
   font-size: 1.5em; /* 15px */
