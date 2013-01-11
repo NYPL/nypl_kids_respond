@@ -803,8 +803,8 @@ float: left;
 margin-right: 15px;
 }
 
-/* blog posts */
-.blog-title{
+/* blog posts, events */
+.blog-title, .event-title {
 font-size: 2em;
 }
 
@@ -812,6 +812,15 @@ font-size: 2em;
 margin-top: 2em;
 }
 
+/* events */
+.event-image img {
+width: 250px;
+height: auto;
+}
+
+.event-date {
+float: left;
+}
 
 /* Media Queries */
 
