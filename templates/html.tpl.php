@@ -3,7 +3,7 @@
 <head<?php print $rdf->profile; ?>>
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <!--[if lt IE 7]>  <html class="no-js ie ie6 lte9 lte8 lte7"> <![endif]-->
