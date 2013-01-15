@@ -31,9 +31,9 @@ function nypl_kids_respond_form_alter(&$form, &$form_state, $form_id) {
 }
 
 function nypl_kids_respond_preprocess_html(&$vars) {
-  $vars['head_title'] = str_replace("_", " ", $vars['head_title']);
-
-  //$vars['head_title'] = str_replace("| Kids!", "| NYPL Kids", $title_tag);
+  //$vars['head_title'] = str_replace("_", " ", $vars['head_title']);
+  $title_tag = str_replace("_", " ", $vars['head_title']);
+  $vars['head_title'] = str_replace("| Kids!", "| NYPL Kids", $title_tag);
 }
 
 
