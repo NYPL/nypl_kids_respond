@@ -5,7 +5,7 @@
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>
-  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
+  <meta http-equiv="X-UA-Compatible" content="IE=7">
 </head>
 <body<?php print $attributes;?>>
   <div id="skip-link">
