@@ -804,13 +804,15 @@ outline: 2px solid #209ee8;
 }
 
 .views-field-field-preview-image, 
-.blog-teaser img{
+.bibliocommons-image,
+.blog-teaser img,
+.blog-body img {
 float: left;
 margin: 0 15px 15px 0;
 }
 
 /* blog posts, events */
-.blog-title, .event-title {
+.bibliocommons-title, .blog-title, .event-title {
 font-size: 1.5em;
 }
 
@@ -832,6 +834,11 @@ height: auto;
 .blog-post-preview {
 float: left;
 width: 65%;
+}
+
+.blog-body img {
+float: left;
+clear: left;;
 }
 
 
