@@ -778,14 +778,14 @@ left: 80%; /* fixes this img covered edit links when logged in */
 /* items in a list (views, blog posts, events) */
 .views-row,
 .event-item,
-.item-list li {
+.blog-post-preview {
 float: left;
 width: 42%;
 margin-right: 2%;
 }
 
 .event-item,
-.item-list li {
+.blog-post-preview {
 margin-bottom: 3%;
 }
 
@@ -977,7 +977,7 @@ position: absolute;
 	
 	.event-item {
 	margin: 1em 0;
-	min-height: none;
+	min-height: auto;
 	}
 	
 	.event-image img {
