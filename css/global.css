@@ -256,7 +256,7 @@ dl.node-type-list,
 
 h1#page-title,
 .comment header h3 {
-  font-size: 2.0em; /* 20px */
+  font-size: 2.5em; /* 20px */
   padding: 0.5em;
   color: #0299c8;
   margin-bottom: 0;
@@ -974,10 +974,16 @@ position: absolute;
 	[class|="promo"] {
 	padding-top: 20px;
 	}
-
+	
+	.event-item {
+	margin: 1em 0;
+	min-height: none;
+	}
+	
 	.event-image img {
-	width: 100px;
+	width: 150px;
 	height: auto;
+	margin: 1em 0;
 	}
 
 }
