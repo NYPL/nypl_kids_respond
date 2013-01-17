@@ -831,6 +831,7 @@ height: auto;
 
 /* blogs */
 .blog-post-preview {
+float: left;
 width: 65%;
 }
 
@@ -898,6 +899,9 @@ width: 65%;
    width: 44%;
   }	
 
+	.blog-post-preview {
+	width: 85%;
+	}
     
 }
 
@@ -984,6 +988,13 @@ position: absolute;
 	width: 150px;
 	height: auto;
 	margin: 1em 0;
+	}
+	
+	.blog-post-preview {
+	width: 100%;
+	}
+	.blog-teaser {
+	display: none;
 	}
 
 }
