@@ -78,7 +78,7 @@ h6.site-slogan {
   font-size: 1.6em; /* 16px */
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: UbuntuRegular, Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+  font-family: Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   font-weight: normal;
   letter-spacing: normal;
 }
@@ -110,7 +110,6 @@ background: #F99D32;
 
 #zone-content {
 background: #fff;
-border-radius: 5px;
 padding-bottom: 30px;
 }
 body.front #zone-content {
@@ -130,7 +129,7 @@ background: #fff url("../img/skyline.png") no-repeat center top;
   font-size: 170px;
   color: #007BA5;
   text-transform: uppercase;
-  letter-spacing: 14px;
+  letter-spacing: 6px;
   text-decoration: none;
 }
 
@@ -197,7 +196,7 @@ margin-bottom: 10px;
 .navigation ul li a.active-trail:hover
 .navigation ul li a.active:focus,
 .navigation ul li a.active-trail:focus {
-  background: #93c5e4; /* Old browsers */
+  background: #76D2F1; /* Old browsers */
   color: #FFF;
 }
 
