@@ -784,9 +784,14 @@ width: 42%;
 margin-right: 2%;
 }
 
+.bibliocommons-row,
 .event-item,
 .blog-post-preview {
 margin-bottom: 3%;
+}
+
+.bibliocommons-row {
+font-size: 110%;
 }
 
 /* imgs */
