@@ -37,7 +37,7 @@ a,
 a:link,
 a:visited {
   text-decoration: none;
-  color: #006caf;
+  color: #0299c8;
 /*  border-bottom: 1px dotted #006caf;*/
 }
 .vertical-tab-button a,
@@ -259,7 +259,7 @@ h1#page-title,
 .comment header h3 {
   font-size: 2.0em; /* 20px */
   padding: 0.5em;
-  color: #007BA5;
+  color: #0299c8;
   margin-bottom: 0;
 }
 
@@ -793,7 +793,7 @@ margin-bottom: 3%;
 .blog-teaser img,
 .blog-body img,
 .event-image img {
-outline: 2px solid #0073ba;
+outline: 1px solid #0073ba;
 }
 .views-field-field-preview-image img:hover,
 .bibliocommons-image img:hover,
