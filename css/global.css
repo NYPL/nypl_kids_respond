@@ -879,6 +879,16 @@ clear: left;;
 }
 
 
+
+@media all and (min-width: 740px) and (min-device-width: 740px), (max-device-width: 800px) and (min-width: 740px) and (orientation:landscape) {
+
+.navigation ul.main-menu li {
+  width: 16.6666666666667%;
+}
+
+}
+
+
 @media screen and (max-width: 740px){
   .site-name-slogan .site-name a{
     font-size: 110px;
@@ -895,7 +905,9 @@ clear: left;;
      padding: 10px 0 0 0; /* logo size */
   }
 
-	.views-row, .event-item  {
+	.views-row, 
+	.bibliocommons-row,
+	.event-item  {
 	width: 100%;
 	height: auto;
 	}
@@ -1002,7 +1014,6 @@ position: absolute;
 	margin: 1em 0;
 	}
 	
-	.bibliocommons-row,
 	.blog-post-preview {
 	width: 100%;
 	margin-bottom: 3em;
