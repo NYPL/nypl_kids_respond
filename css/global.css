@@ -939,9 +939,12 @@ float: left;
 	
   	/* Home page */
   	a.lib-card {
-	position: absolute;
+	/*
+position: absolute;
 	top: 15px;
 	left: 96px;
+*/
+	margin-top: 20px;
 	background: #F99D32;
 	width: auto;
 	height: auto;
@@ -953,20 +956,12 @@ float: left;
 	font-weight: bold;
 	padding: 2px 5px;
 	text-transform: uppercase;
-	
--webkit-transition: all 100ms ease-in-out; 
-   -moz-transition: all 100ms ease-in-out; 
-    -ms-transition: all 100ms ease-in-out; 
-     -o-transition: all 100ms ease-in-out; 
-        transition: all 100ms ease-in-out; /* ease (default) */	
 	}
 	a.lib-card {
 	color: #fff;
 	text-decoration: none;
 	}
-	a.lib-card:hover {
-	background: #dd7804;
-	}
+
 	
 	[class|="promo"] {
 	padding-top: 20px;
