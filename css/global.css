@@ -777,6 +777,7 @@ left: 80%; /* fixes this img covered edit links when logged in */
 
 /* items in a list (views, blog posts, events) */
 .views-row,
+.bibliocommons-row,
 .event-item{
 float: left;
 width: 42%;
