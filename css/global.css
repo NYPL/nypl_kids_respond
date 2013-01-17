@@ -825,6 +825,10 @@ margin-top: 2em;
 }
 
 /* events */
+.event-item {
+min-height: 240px;
+}
+
 .event-image img {
 width: 285px;
 height: auto;
@@ -878,7 +882,7 @@ height: auto;
      padding: 10px 0 0 0; /* logo size */
   }
 
-	.views-row {
+	.views-row, .event-item  {
 	width: 100%;
 	height: auto;
 	}
@@ -893,6 +897,7 @@ height: auto;
   #footer-bottom ul {
    width: 44%;
   }	
+
     
 }
 
