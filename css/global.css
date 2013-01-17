@@ -777,8 +777,7 @@ left: 80%; /* fixes this img covered edit links when logged in */
 
 /* items in a list (views, blog posts, events) */
 .views-row,
-.event-item,
-.blog-post-preview {
+.event-item{
 float: left;
 width: 42%;
 margin-right: 2%;
@@ -808,15 +807,11 @@ outline: 2px solid #209ee8;
 .blog-teaser img, 
 .blog-body img{
 float: left;
-margin-right: 15px;
+margin: 15px 15px 15px 0;
 }
 
 /* blog posts, events */
-.blog-title {
-font-size: 2em;
-}
-
-.event-title {
+.blog-title, .event-title {
 font-size: 1.5em;
 }
 
@@ -832,6 +827,11 @@ min-height: 240px;
 .event-image img {
 width: 285px;
 height: auto;
+}
+
+/* blogs */
+.blog-post-preview {
+width: 65%;
 }
 
 
