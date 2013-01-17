@@ -736,6 +736,9 @@ text-indent: 100%;
 white-space: nowrap;
 overflow: hidden;
 }
+.logged-in .lib-card {
+left: 80%; /* fixes this img covered edit links when logged in */
+}
 
 
 /* views */
