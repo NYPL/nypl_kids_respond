@@ -767,7 +767,7 @@ left: 80%; /* fixes this img covered edit links when logged in */
 
 .views-field-body .field-content p {
   padding-left: 115px;
-  font-size: 90%;
+  font-size: 85%;
 }
 
 
@@ -806,15 +806,18 @@ outline: 2px solid #209ee8;
 
 .views-field-field-preview-image, 
 .blog-teaser img, 
-.blog-body img, 
-.event-image{
+.blog-body img{
 float: left;
 margin-right: 15px;
 }
 
 /* blog posts, events */
-.blog-title, .event-title {
+.blog-title {
 font-size: 2em;
+}
+
+.event-title {
+font-size: 1.5em;
 }
 
 .blog-body {
@@ -827,9 +830,6 @@ width: 285px;
 height: auto;
 }
 
-.event-date {
-float: left;
-}
 
 /* Media Queries */
 
