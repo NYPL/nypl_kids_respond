@@ -171,7 +171,7 @@ margin-bottom: 10px;
   border-bottom: 0;
   font-family: UbuntuRegular, Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   font-size: 1.5em; /* 15px */
-  padding: .3em 0;
+  padding: .2em 0;
   color: #fff;
   text-transform: none;
   font-weight: bold;
@@ -186,7 +186,7 @@ margin-bottom: 10px;
 
 .navigation ul li a:hover,
 .navigation ul li a:focus {
-  background: #93c5e4; /* Old browsers */
+  background: #76D2F1; /* Old browsers */
   color: #FFF;
 }
 
