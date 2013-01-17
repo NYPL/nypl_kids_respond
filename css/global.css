@@ -72,6 +72,7 @@ h6.site-slogan {
 }
 
 h1, h2, h3, h4, h5, h6 {
+font-family: Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   font-weight: normal;
   letter-spacing: normal;
 }
@@ -137,6 +138,7 @@ margin-bottom: 10px;
   display: block;
   text-align: center;
   border-bottom: 0;
+  font-family: Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   font-size: 1.5em; /* 15px */
   padding: .2em 0;
   color: #fff;
@@ -593,7 +595,6 @@ div.ui-datepicker{
 
 #zone-footer{
   color: #FFF;
-  /* background: #36322D; */
 }
 
 #footer-bottom li a{
@@ -647,18 +648,6 @@ body.front #footer-bottom ul { /* for spacing on home pg version */
 	text-decoration: underline;
 }
 
-#footer-bottom ul#legal-links {
-/*
-  bottom: 3px;
-  color: #FFFFFF;
-  font-size: 90%;
-  left: 5px;
-  padding: 0;
-  position: absolute;
-  width: 100%; 
-*/
-}
-
 #footer-bottom #legal-links a:link,
 #footer-bottom #legal-links a:visited {
 	text-decoration: none;
@@ -709,9 +698,8 @@ left: 80%; /* fixes this img covered edit links when logged in */
 
 
 /* views */
-
 .views-row{
-  padding-bottom: 10px;
+  padding: 10px 0 10px 10px;
   font-size: 15px;
 }
 
@@ -720,15 +708,8 @@ left: 80%; /* fixes this img covered edit links when logged in */
   font-weight: bold;
 }
 
-.views-row{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
-}
-
 .views-field-title .field-content a{
   font-size: 18px;
-/*   padding-left: 30px; */
   padding-bottom: 15px;
 }
 
@@ -737,10 +718,6 @@ left: 80%; /* fixes this img covered edit links when logged in */
   font-size: 85%;
 }
 
-
-.views-row-odd{
-/*  background-color: red;*/
-}
 
 /* items in a list (views, blog posts, events) */
 .views-row,
