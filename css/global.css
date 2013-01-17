@@ -903,8 +903,11 @@ float: left;
   bottom: -6px; /* site name placement */
   }  
 
-  #zone-branding img{
-    padding-left: 0px; /* header img */
+ .logo-img img{
+    display: none; /* header img */
+  }
+  .logo-img a {
+  background: transparent url("../logo-lionmark_50.png");
   }
 
   
