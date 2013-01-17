@@ -894,20 +894,27 @@ float: left;
 }
 
 @media screen and (max-width: 480px){
+	.branding-data {
+	margin-bottom: 0; /* fixes a positioning bug for 480 bkpt */
+	}
+
   .site-name-slogan .site-name a{
-    font-size: 40px;
-    letter-spacing: 5px; /* site name font */
+    font-size: 55px;
+	letter-spacing: 2px; /* site name font */
   }
   
   h1.site-name, h2.site-name {
-  bottom: -6px; /* site name placement */
+  bottom: 3px; /* site name placement */
   }  
 
  .logo-img img{
     display: none; /* header img */
   }
   .logo-img a {
-  background: transparent url("../logo-lionmark_50.png");
+	background: transparent url("../logo-lionmark_50.png") no-repeat left 5px;
+	width: 50px;
+	height: 60px;
+	display: block;
   }
 
   
