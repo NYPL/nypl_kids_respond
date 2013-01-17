@@ -25,20 +25,16 @@ img {
   max-width: 100%;
 }
 
-#page{
-
-}
-
 .item-list .pager {
   margin-bottom: 10px;
 }
+
 /* Fonts */
 a, 
 a:link,
 a:visited {
   text-decoration: none;
   color: #0299c8;
-/*  border-bottom: 1px dotted #006caf;*/
 }
 .vertical-tab-button a,
 .vertical-tab-button a:link
@@ -56,9 +52,6 @@ a:hover {
 .contextual-links-wrapper a {
   border: 0;
 }
-p, ul, ol, li, table {
-
-}
 
 p {
 font-size: 110%;
@@ -69,43 +62,30 @@ h1.site-name, h2.site-name /* site name is h2 on subpages */
   font-family: UbuntuBold, Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   font-size: 4.8em; /* 48px */
 /* -webkit-margin-after: -10px; */
-position: absolute;
-right: 0;
-bottom: -6px;
-
+	position: absolute;
+	right: 0;
+	bottom: -6px;
 }
+
 h6.site-slogan {
   font-size: 1.6em; /* 16px */
 }
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   font-weight: normal;
   letter-spacing: normal;
 }
+
 .item-list ul li {
   margin: 0;
 }
 
 /* Header */ 
-header.section-header {
-/*  background: #FFF;*/
-}
-section.section-content {
-/*  background: #EEE;*/
-}
-footer.section-footer {
-/*  background: #EEE;*/
-}
-
 body.front #zone-branding{
-background: #F99D32 url("../img/header-bg.png") no-repeat center bottom;
+background: #F99D32 url("../img/header-bg.png") no-repeat center bottom; /* only serve bg img on home pg */
 }
 #zone-branding{
 background: #F99D32;
-}
-
-#zone-menu {
-
 }
 
 #zone-content {
@@ -113,15 +93,7 @@ background: #fff;
 padding-bottom: 30px;
 }
 body.front #zone-content {
-background: #fff url("../img/skyline.png") no-repeat center top;
-}
-
-#region-menu{
-/*   padding-top: 15px; */
-/* margin: 0;  overrides l/r margins, to put edges flush */
-}
-
-.site-name-slogan{
+background: #fff url("../img/skyline.png") no-repeat center top; /* only serve bg img on home pg */
 }
 
 .site-name-slogan .site-name a{
@@ -139,10 +111,6 @@ margin-bottom: 10px;
 }
 
 /* Primary Nav */
-.navigation {
-/*   margin-bottom: 20px; */
-}
-
 .navigation ul {
   margin: 0;
   padding: 0;
@@ -169,7 +137,6 @@ margin-bottom: 10px;
   display: block;
   text-align: center;
   border-bottom: 0;
-  font-family: UbuntuRegular, Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
   font-size: 1.5em; /* 15px */
   padding: .2em 0;
   color: #fff;
@@ -852,7 +819,7 @@ clear: left;;
 
 @media screen and (min-width: 1024px){
 	.navigation ul.main-menu li {
-	font-size: 1.5em; /* top nav font size */
+	font-size: 1.5em; /* top nav font size */ /* THIS IS WHERE IE8 CHOKES */
 	}
 	
 	.views-row {
@@ -965,11 +932,6 @@ clear: left;;
 	
   	/* Home page */
   	a.lib-card {
-	/*
-position: absolute;
-	top: 15px;
-	left: 96px;
-*/
 	margin-top: 20px;
 	background: #F99D32;
 	width: auto;
@@ -1010,6 +972,10 @@ position: absolute;
 	}
 	.blog-teaser {
 	display: none;
+	}
+	
+	.bibliocommons-image {
+	float: none;
 	}
 
 }
