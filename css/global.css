@@ -814,6 +814,11 @@ border-radius: 0px;
 outline: 1px solid #ccc;
 }
 
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+border: 1px solid #a6dbed;
+background: #d2eef7;
+}
+
 /* ******************* */
 /* Media Queries */
 /* ********************** */
