@@ -1,0 +1,16 @@
+/* FIX TOP NAV */
+
+.navigation ul.main-menu li {
+width: 16%;
+float: left;
+}
+
+/* FIX SITE NAME POSITIONING */
+.site-name {
+line-height: 3em;
+}
+
+/* FIX IMG COLLAPSING ON SUBPAGE ITEMS */
+img {
+max-width: none;
+}
