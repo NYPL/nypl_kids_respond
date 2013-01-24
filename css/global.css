@@ -964,7 +964,6 @@ clear: left;;
 * + html .navigation ul.main-menu li {
 width: 16%;
 float: left;
-background: pink;
 }
 
 /* FIX SITE NAME POSITIONING */
