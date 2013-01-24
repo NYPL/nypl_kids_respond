@@ -8,7 +8,7 @@
   <?php print $scripts; ?>
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   <!--[if lte IE 7]>
-  <link rel="stylesheet" type="text/css" href="../css/IE.css">
+  <link rel="stylesheet" type="text/css" href="css/IE.css">
   <script type="text/javascript" src="../js/IE.js"></script>
   <![endif]-->
 </head>
