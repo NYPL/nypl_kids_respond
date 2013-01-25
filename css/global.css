@@ -819,6 +819,12 @@ border: 1px solid #a6dbed;
 background: #d2eef7;
 }
 
+.ui-state-hover .ui-icon,
+.ui-state-hover .ui-icon {
+background-image: none;
+background: #fff;
+}
+
 /* ******************* */
 /* Media Queries */
 /* ********************** */
