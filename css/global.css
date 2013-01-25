@@ -792,6 +792,7 @@ clear: left;;
 }
 
 /* Programs */
+
 /* datepicker */
 .ui-datepicker .ui-datepicker-title {
 color: #fff;
@@ -832,12 +833,32 @@ border: none;
 */
 }
 
+/* events results */
+#events caption {
+padding: 1em 0;
+text-align: -webkit-auto;
+}
+
+#events table {
+font-size: 1.2em;
+}
+
+#events thead {
+background: #e5e5e5;
+font-size: 1.2em;
+}
+
+#events th {
+padding: .5em;
+}
+
+
 /* ******************* */
 /* Media Queries */
 /* ********************** */
 @media screen and (min-width: 1024px){
 	.navigation ul.main-menu li {
-	font-size: 1.5em; /* top nav font size */ /* THIS IS WHERE IE8 CHOKES */
+	font-size: 1.5em; /* top nav font size */
 	}
 	
 	.views-row {
