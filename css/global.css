@@ -824,8 +824,8 @@ background: #d2eef7;
 /* background-image: none; */
 /* background: #fff; */
 }
-.ui-datepicker-prev,
-.ui-datepicker-next {
+.ui-datepicker-prev.ui-state-hover ,
+.ui-datepicker-next.ui-state-hover  {
 background: none;
 border: none;
 }
