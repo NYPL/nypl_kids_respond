@@ -848,7 +848,7 @@ background: #e5e5e5;
 font-size: 1.2em;
 }
 
-#events th {
+#events th, #events td {
 padding: .5em;
 }
 
