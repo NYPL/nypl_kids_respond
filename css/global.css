@@ -998,21 +998,21 @@ border: none;
 
 }
 
-/* IE7 HACKS. I'M SORRY. */
-
+/* lte IE8 HACKS. I'M SORRY. */
+/* add "* + html " for IE7 */ 
 /* FIX TOP NAV */
 
-* + html .navigation ul.main-menu li {
-width: 16%;
-float: left;
+.navigation ul.main-menu li {
+width: 16%\9;
+float: left\9;
 }
 
 /* FIX SITE NAME POSITIONING */
-* + html .site-name {
-line-height: 3em;
+.site-name {
+line-height: 3em\9;
 }
 
 /* FIX IMG COLLAPSING ON SUBPAGE ITEMS */
-* + html img {
-max-width: none;
+img {
+max-width: none\9;
 }

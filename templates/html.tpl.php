@@ -7,7 +7,6 @@
   <?php print $styles; ?>
   <?php print $scripts; ?>
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  <!--[if lte IE 8]><script type="text/javascript" src="../js/IE.js"></script><![endif]-->
 </head>
 <body<?php print $attributes;?>>
   <div id="skip-link">
