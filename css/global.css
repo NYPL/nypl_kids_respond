@@ -877,6 +877,11 @@ padding: .5em;
 	width: 42%;
 	height: 200px;
 	}	
+	
+	/* Programs */
+	.context-programs .region-content-inner {
+	padding-left: 10%;
+	}
 }
 
 @media screen and (max-width: 800px){
