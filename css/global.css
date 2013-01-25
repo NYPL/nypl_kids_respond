@@ -833,6 +833,11 @@ border: none;
 */
 }
 
+/* dropdown */
+.chzn-container-single .chzn-drop {
+width: 200px; /* fixes width collapse bug */
+}
+
 /* events results */
 #events caption {
 padding: 1em 0;
