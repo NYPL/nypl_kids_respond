@@ -822,7 +822,12 @@ background: #d2eef7;
 .ui-state-hover .ui-icon,
 .ui-state-hover .ui-icon {
 background-image: none;
-background: #fff;
+/* background: #fff; */
+}
+.ui-datepicker-prev,
+.ui-datepicker-next {
+background: none;
+border: none;
 }
 
 /* ******************* */
