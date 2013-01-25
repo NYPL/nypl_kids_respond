@@ -1029,8 +1029,10 @@ float: left\9;
 }
 
 /* FIX SITE NAME POSITIONING */
-.site-name {
-line-height: 3em\9;
+h1.site-name, h2.site-name {
+position: relative\9;
+line-height: 1em\9;
+margin-top: 10px\9;
 }
 
 /* FIX IMG COLLAPSING ON SUBPAGE ITEMS */
