@@ -112,6 +112,11 @@ margin-top: 25px;
 margin-bottom: 10px;
 }
 
+.logo-img {
+margin-left: 20px;
+padding-bottom: 3px;
+}
+
 /* Primary Nav */
 .navigation ul {
   margin: 0;
@@ -227,7 +232,7 @@ dl.node-type-list,
 h1#page-title,
 .comment header h3 {
   font-size: 2.5em; /* 20px */
-  padding: 0.5em;
+  padding: 0 0.7em;
   color: #0299c8;
   margin-bottom: 0;
 }
