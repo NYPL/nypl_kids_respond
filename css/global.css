@@ -621,16 +621,12 @@ position: relative;
 width: 20%;
 }
 
-body.front #footer-bottom ul { /* for spacing on home pg version */
-	padding: 0 1em;
-}
-
 #home-shallowfooter { /* for spacing on home pg version */
 	float: right;
 }
 
 #footer-bottom ul li {
-	padding: 0 1em;
+	padding: 0 .5em;
 }
 
 #footer-bottom ul#shallow-footer li.first,
@@ -793,6 +789,10 @@ clear: left;;
 }
 
 /* Programs */
+
+.context-programs h1.title {
+padding-top: 0;
+}
 
 /* datepicker */
 .ui-datepicker .ui-datepicker-title {
