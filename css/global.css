@@ -83,7 +83,7 @@ font-family: Geneva, "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
 
 /* Header */ 
 body.front #zone-branding{
-background: #F99D32 url("../img/header-bg.png") no-repeat center bottom; /* only serve bg img on home pg */
+background: #F99D32 url("../img/header-bg_2.png") no-repeat center bottom; /* only serve bg img on home pg */
 }
 #zone-branding{
 background: #F99D32;
@@ -94,7 +94,7 @@ background: #fff;
 padding-bottom: 30px;
 }
 body.front #zone-content {
-background: #fff url("../img/skyline.png") no-repeat center top; /* only serve bg img on home pg */
+background: #fff url("../img/skyline_2.png") no-repeat center top; /* only serve bg img on home pg */
 height: 540px
 }
 
