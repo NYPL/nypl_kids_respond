@@ -95,6 +95,7 @@ padding-bottom: 30px;
 }
 body.front #zone-content {
 background: #fff url("../img/skyline.png") no-repeat center top; /* only serve bg img on home pg */
+height: 540px
 }
 
 .site-name-slogan .site-name a{
@@ -896,6 +897,10 @@ padding: .5em;
 
 
 @media screen and (max-width: 740px){
+	body.front #zone-content {
+	height: auto; /* kills height decl from full desktop */
+	}
+
   .site-name-slogan .site-name a{
     font-size: 110px;
     letter-spacing: 5px; /* site name font */
@@ -936,6 +941,14 @@ padding: .5em;
 }
 
 @media screen and (max-width: 480px){
+	/* the following hide the bg imgs on mobile */
+	body.front #zone-content {
+	background: #fff;
+	}
+	body.front #zone-branding {
+	background: #F99D32;
+	}
+
 	.branding-data {
 	margin-bottom: 0; /* fixes a positioning bug for 480 bkpt */
 	}
