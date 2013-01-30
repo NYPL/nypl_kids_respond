@@ -712,6 +712,7 @@ left: 80%; /* fixes this img covered edit links when logged in */
 
 .views-field-title .field-content a{
   font-size: 18px;
+  line-height: 1.1em;
   padding-bottom: 15px;
 }
 
